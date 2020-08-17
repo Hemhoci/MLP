@@ -5,7 +5,7 @@ body{
     background-color: palegreen;
 }
 .sitelocations{
-    position: fixed;
+    position: relative;
     top: 50%;
     left: 40%;
 }
