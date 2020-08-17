@@ -10,7 +10,7 @@ body{
     left: 40%;
 }
 .listheader{
-    position: fixed;
+    position: relative;
     top: 39%;
     left: 42%;
     font-weight: lighter;
