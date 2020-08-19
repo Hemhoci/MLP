@@ -1,41 +1,36 @@
-body{
-    padding: 0;
-    margin: 0;
-    width: 100%;
+* {
+    box-sizing: border-box;
+}
+body {
     background-color: palegreen;
 }
-.sitelocations{
-    position: fixed;
-    top: 50%;
-    left: 40%;
+.LocNavHead {
+    width: 100%;
+    position: absolute;
+    top: 32vh;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 35px;
 }
-.listheader{
-    position: fixed;
-    top: 39%;
-    left: 42%;
-    font-weight: lighter;
+.locNavButtons {
+    position: absolute;
+    top: 45vh;
+    width: 100%;
+    text-align: center;
+} 
+.locNavButtons li {
+    display: inline-block;
+    margin: 2vw;
+    margin-bottom: 35px;
 }
-ul{
-    list-style: none;
-}
-li{
-    display: inline;
-}
-a{
+.locNavButtons li a {
+    border:1px solid black;
     text-decoration: none;
-    font-size: 28px;
-    border: 1px solid black;
-    border-radius: 5px;
-    padding: 2px 10px;
-    margin: 0 8px;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
 }
-.listeditems{
-    position: relative;
-    right: 60px;
-}
-a:hover{
+.locNavButtons a:hover {
     background-color: rgb(0,0,0);
     color: palegreen;
-    
-
 }
