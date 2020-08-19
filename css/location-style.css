@@ -19,7 +19,7 @@ body {
     text-align: center;
 } 
 .locNavButtons li {
-    display: inline-block;
+    display: inline;
     margin: 2vw;
     margin-bottom: 35px;
 }
